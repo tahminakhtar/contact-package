@@ -15,5 +15,12 @@
         "psr-4": {
             "Tahmina\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tahmina\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
