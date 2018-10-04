@@ -1,0 +1,19 @@
+{
+    "name": "tahmina/contact",
+    "description": "This is a simple package to send mail and save in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tahmina Akhtar",
+            "email": "tahminausa90@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tahmina\\Contact\\": "src/"
+        }
+    }
+}
